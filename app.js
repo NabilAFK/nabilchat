@@ -6,7 +6,7 @@ const displayMsg = document.querySelector('.message')
 
 let name;
 do{
-    uname = prompt('What would you like to be called?')
+    uname = prompt('What is your name?')
 }while(!uname)
 
 document.querySelector('#your-name').textContent = uname
@@ -44,7 +44,7 @@ const display = (msg, type) =>{
 
     let innerText = `
     <div class="message-title">
-       💎 <span>${msg.user}</span>
+        🐵 <span>${msg.user}</span>
     </div>
     <div class="message-text">
         ${msg.message}
